@@ -16,3 +16,9 @@ handlers:
 # Serve your app through a front controller at index.php or public/index.php.
 - url: .*
   script: auto
+  
+# env_variables:
+  # MYSQL_HOST: mysql:unix_socket=/cloudsql/irm-gcloud-learn:us-central1:mysql56first
+  # MYSQL_DB: cicool
+  # MYSQL_USER: root
+  # MYSQL_PASS: 1

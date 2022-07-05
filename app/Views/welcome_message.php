@@ -238,7 +238,10 @@
 
 <p style="color:red;">
 <?php
-putenv("GOOGLE_APPLICATION_CREDENTIALS=D:\\AppCloud\\gcp-credentials\\irm-gcloud-learn-6397183d8115.json");
+// for windows
+// putenv("GOOGLE_APPLICATION_CREDENTIALS=D:\\AppCloud\\gcp-credentials\\irm-gcloud-learn-6397183d8115.json");
+// for linux
+putenv("GOOGLE_APPLICATION_CREDENTIALS=/var/www/html/gcp-credentials/irm-gcloud-learn-6397183d8115.json");
 # Includes the autoloader for libraries installed with composer
 require FCPATH  . '../vendor/autoload.php';
 
